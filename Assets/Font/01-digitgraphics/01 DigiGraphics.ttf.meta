@@ -1,7 +1,7 @@
 fileFormatVersion: 2
-guid: eda433436824d49e3ad07ff8377d60f2
-timeCreated: 1476131921
-licenseType: Pro
+guid: 3cb94f90337ce401396ad136eec8728f
+timeCreated: 1476651149
+licenseType: Free
 TrueTypeFontImporter:
   serializedVersion: 4
   fontSize: 16
@@ -10,7 +10,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Radioland Slim
+  - 01 DigitGraphics
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0

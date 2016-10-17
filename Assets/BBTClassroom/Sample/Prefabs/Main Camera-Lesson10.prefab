@@ -1,0 +1,292 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000012943397204}
+  m_IsPrefabParent: 1
+--- !u!1 &1000012943397204
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000013683853656}
+  - 20: {fileID: 20000012985795868}
+  - 92: {fileID: 92000011472071334}
+  - 81: {fileID: 81000014285852418}
+  - 114: {fileID: 114000013485913352}
+  - 114: {fileID: 114000011594222924}
+  m_Layer: 0
+  m_Name: Main Camera-Lesson10
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000013683853656
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012943397204}
+  m_LocalRotation: {x: 0.22747697, y: 0.0009480961, z: 0.00502631, w: 0.9737701}
+  m_LocalPosition: {x: 5.6, y: 3.97, z: -5.05}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 26.271002, y: 0.256, z: 0.634}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!20 &20000012985795868
+Camera:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012943397204}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+  m_StereoMirrorMode: 0
+--- !u!81 &81000014285852418
+AudioListener:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012943397204}
+  m_Enabled: 1
+--- !u!92 &92000011472071334
+Behaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012943397204}
+  m_Enabled: 1
+--- !u!114 &114000011594222924
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012943397204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c22f108f25b8d4045879dfff227bb81b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Blackboard: {fileID: 114000013485913352}
+  m_Parent: {fileID: 0}
+  m_StateName: ActionState
+  m_Color: 0
+  m_HideScript: 1
+  m_Position: {x: 0, y: 0}
+  m_Transitions: []
+  m_CachedInstanceID: -739866
+  m_NodeSerialization:
+    m_NodeTypes:
+    - HideCursor
+    - BehaviourMachine.Vector3Set
+    - BehaviourMachine.Vector3Subtract
+    - BehaviourMachine.EveryFrame
+    - BehaviourMachine.GetAxis
+    - QuaternionAngleAxis
+    - BehaviourMachine.Vector3Set
+    - BehaviourMachine.Vector3Add
+    - BehaviourMachine.SetPosition
+    - BehaviourMachine.LookAt
+    m_NodeTypeHash: f98727075f9d1538a5d2088c89ef82105cce0e35dbf9ae815f9d1538a5d2088c6aae7af30d040b57
+    m_NodeFieldStartIndex: 00000000040000000c00000015000000180000001e000000250000002d000000320000003b00000041000000
+    m_BranchIndex: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+    m_UnityObjectValue:
+    - {fileID: 1000012943397204}
+    - {fileID: 4000013683853656}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1000012943397204}
+    - {fileID: 0}
+    m_IntValue: 0a0000000100000003000000cbf8480b0000000002000000cbf8480b00000000000000000100000001000000040000003c53a821c409b228050000003c53a821cbf8480bc409b2280700000081910e1c000000000800000081910e1ccbf8480b000000000600000081910e1c0000000009000000
+    m_FloatValue:
+    - 0
+    - 1
+    - 0
+    m_StringValue:
+    - HideCursor
+    - Vector3Set
+    - position
+    - Vector3Subtract
+    - position
+    - EveryFrame
+    - GetAxis
+    - Mouse X
+    - QuaternionAngleAxis
+    - Vector3Set
+    - position
+    - Vector3Add
+    - SetPosition
+    - BehaviourMachine.ConcreteFloatVar
+    - BehaviourMachine.ConcreteFloatVar
+    - BehaviourMachine.ConcreteFloatVar
+    - LookAt
+    - BehaviourMachine.ConcreteGameObjectVar
+    - BehaviourMachine.ConcreteVector3Var
+    m_CurveValue: []
+    m_GenericFieldType:
+    - BehaviourMachine.ConcreteBoolVar
+    - BehaviourMachine.Vector3Property
+    - BehaviourMachine.Vector3Property
+    - BehaviourMachine.ConcreteStringVar
+    - BehaviourMachine.ConcreteVector3Var
+    - BehaviourMachine.Vector3Property
+    - BehaviourMachine.ConcreteGameObjectVar
+    - BehaviourMachine.ConcreteGameObjectVar
+    m_GenericFieldHash: e4b98a666305154e6305154e7de9e602148542ea6305154ee5faf787e5faf787
+    m_GenericFieldSize: 0100000004000000040000000100000001000000040000000100000001000000
+    m_FieldIndex: 00000000000000000000000001000000020000000100000003000000010000000000000001000000040000000200000005000000030000000600000002000000020000000300000007000000040000000800000009000000050000000a0000000b0000000600000003000000070000000c0000000d0000000e000000080000000f00000004000000000000001000000011000000120000000900000013000000050000000400000005000000140000000a000000150000000b000000160000001700000018000000190000000c00000006000000060000001a0000000d0000000e0000000f0000001b0000001c0000001000000011000000070000000700000012000000
+    m_FieldType: 01000000020000001000000005000000010000000200000016000000100000000f0000000f0000000500000002000000010000000200000016000000100000000f0000000f00000005000000020000000500000001000000020000000500000001000000020000001000000002000000120000001200000001000000020000001200000010000000070000001600000012000000010000000200000016000000100000000f0000000f000000050000000200000001000000020000001600000016000000050000000100000002000000100000000f0000001600000011000000110000001100000004000000010000000200000011000000100000000f00000011000000
+    m_FieldPath:
+    - instanceID
+    - name
+    - hideCursor
+    - hideCursor.value
+    - instanceID
+    - name
+    - variable
+    - newValue
+    - newValue.target
+    - newValue.component
+    - newValue.isStatic
+    - newValue.property
+    - instanceID
+    - name
+    - variable
+    - subtract
+    - subtract.target
+    - subtract.component
+    - subtract.isStatic
+    - subtract.property
+    - perSecond
+    - instanceID
+    - name
+    - enabled
+    - instanceID
+    - name
+    - axisName
+    - axisName.value
+    - storeAxis
+    - multiplier
+    - instanceID
+    - name
+    - angle
+    - angleVector
+    - angleVector.value
+    - setVector
+    - angleMultiplier
+    - instanceID
+    - name
+    - variable
+    - newValue
+    - newValue.target
+    - newValue.component
+    - newValue.isStatic
+    - newValue.property
+    - instanceID
+    - name
+    - variable
+    - add
+    - perSecond
+    - instanceID
+    - name
+    - gameObject
+    - gameObject.value
+    - newPosition
+    - newX
+    - newY
+    - newZ
+    - relativeTo
+    - instanceID
+    - name
+    - objectToRotate
+    - objectToLookAt
+    - objectToLookAt.value
+    - worldUp
+  m_Description: 
+  m_IgnoreTimeScale: 0
+  m_ResetStatusOnDisable: 1
+--- !u!114 &114000013485913352
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012943397204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 634db10235c0241d6ad43433a106016d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FloatVars:
+  - m_ID: 682756548
+    m_Name: turnSpeed
+    m_Blackboard: {fileID: 114000013485913352}
+    m_IsConstant: 0
+    value: 3
+  - m_ID: 564679484
+    m_Name: mouseX
+    m_Blackboard: {fileID: 114000013485913352}
+    m_IsConstant: 0
+    value: 0
+  m_IntVars: []
+  m_BoolVars: []
+  m_StringVars: []
+  m_Vector3Vars:
+  - m_ID: 189331659
+    m_Name: offset
+    m_Blackboard: {fileID: 114000013485913352}
+    m_IsConstant: 0
+    value: {x: 0, y: 0, z: 0}
+  - m_ID: 470716801
+    m_Name: pos
+    m_Blackboard: {fileID: 114000013485913352}
+    m_IsConstant: 0
+    value: {x: 0, y: 0, z: 0}
+  m_RectVars: []
+  m_ColorVars: []
+  m_QuaternionVars: []
+  m_GameObjectVars: []
+  m_TextureVars: []
+  m_MaterialVars: []
+  m_ObjectVars: []
+  m_DynamicLists: []
+  m_FsmEvents: []
+  m_ConcreteFsmEvents: []
+  m_Namespace: 

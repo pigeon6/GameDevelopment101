@@ -55,12 +55,7 @@ MonoBehaviour:
   m_IntVars: []
   m_BoolVars: []
   m_StringVars: []
-  m_Vector3Vars:
-  - m_ID: -1742093486
-    m_Name: CameraDirection
-    m_Blackboard: {fileID: 114000011761682612}
-    m_IsConstant: 0
-    value: {x: 0, y: 0, z: 0}
+  m_Vector3Vars: []
   m_RectVars: []
   m_ColorVars: []
   m_QuaternionVars: []
