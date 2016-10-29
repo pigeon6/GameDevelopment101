@@ -67,44 +67,76 @@ public class RankingBoard : ActionNode {
 			fifthText.Value.GetComponent<Text>().text = string.Format("5th {0:F2} sec.", scores[4]);
 		}
 
-		if(scores[0] > gameTime.Value) {
+		var oldValue = gameTime.Value;
+		bool firstUpdated = false;
+
+		if(scores[0] > oldValue) {
 			Text t = firstText.Value.GetComponent<Text>();
-			scores[0] = gameTime.Value;
-			t.text = string.Format("1st {0:F2} sec.", gameTime.Value);
-			t.color = updatedColor.Value;
-			PlayerPrefs.SetFloat(levelName + ".1st", gameTime.Value);
+			var s = scores[0];
+			scores[0] = oldValue;
+			t.text = string.Format("1st {0:F2} sec.", oldValue);
+			if(!firstUpdated) {
+				t.color = updatedColor.Value;
+				firstUpdated = true;
+			}
+			PlayerPrefs.SetFloat(levelName + ".1st", oldValue);
+			oldValue = s;
 		}
 
-		else if(scores[1] > gameTime.Value) {
+		oldValue = Mathf.Max(oldValue, gameTime.Value);
+		if(scores[1] > oldValue) {
 			Text t = secondText.Value.GetComponent<Text>();
-			scores[1] = gameTime.Value;
-			t.text = string.Format("2nd {0:F2} sec.", gameTime.Value);
-			t.color = updatedColor.Value;
-			PlayerPrefs.SetFloat(levelName + ".2nd", gameTime.Value);
+			var s = scores[1];
+			scores[1] = oldValue;
+			t.text = string.Format("2nd {0:F2} sec.", oldValue);
+			if(!firstUpdated) {
+				t.color = updatedColor.Value;
+				firstUpdated = true;
+			}
+			PlayerPrefs.SetFloat(levelName + ".2nd", oldValue);
+			oldValue = s;
 		}
 
-		else if(scores[2] > gameTime.Value) {
+		oldValue = Mathf.Max(oldValue, gameTime.Value);
+		if(scores[2] > oldValue) {
 			Text t = thirdText.Value.GetComponent<Text>();
-			scores[2] = gameTime.Value;
-			t.text = string.Format("3rd {0:F2} sec.", gameTime.Value);
-			t.color = updatedColor.Value;
-			PlayerPrefs.SetFloat(levelName + ".3rd", gameTime.Value);
+			var s = scores[2];
+			scores[2] = oldValue;
+			t.text = string.Format("3rd {0:F2} sec.", oldValue);
+			if(!firstUpdated) {
+				t.color = updatedColor.Value;
+				firstUpdated = true;
+			}
+			PlayerPrefs.SetFloat(levelName + ".3rd", oldValue);
+			oldValue = s;
 		}
 
-		else if(scores[3] > gameTime.Value) {
+		oldValue = Mathf.Max(oldValue, gameTime.Value);
+		if(scores[3] > oldValue) {
 			Text t = forthText.Value.GetComponent<Text>();
-			scores[3] = gameTime.Value;
-			t.text = string.Format("4th {0:F2} sec.", gameTime.Value);
-			t.color = updatedColor.Value;
-			PlayerPrefs.SetFloat(levelName + ".4th", gameTime.Value);
+			var s = scores[3];
+			scores[3] = oldValue;
+			t.text = string.Format("4th {0:F2} sec.", oldValue);
+			if(!firstUpdated) {
+				t.color = updatedColor.Value;
+				firstUpdated = true;
+			}
+			PlayerPrefs.SetFloat(levelName + ".4th", oldValue);
+			oldValue = s;
 		}
 
-		else if(scores[4] > gameTime.Value) {
+		oldValue = Mathf.Max(oldValue, gameTime.Value);
+		if(scores[4] > oldValue) {
 			Text t = fifthText.Value.GetComponent<Text>();
-			scores[4] = gameTime.Value;
-			t.text = string.Format("5th {0:F2} sec.", gameTime.Value);
-			t.color = updatedColor.Value;
-			PlayerPrefs.SetFloat(levelName + ".5th", gameTime.Value);
+			var s = scores[4];
+			scores[4] = oldValue;
+			t.text = string.Format("5th {0:F2} sec.", oldValue);
+			if(!firstUpdated) {
+				t.color = updatedColor.Value;
+				firstUpdated = true;
+			}
+			PlayerPrefs.SetFloat(levelName + ".5th", oldValue);
+			oldValue = s;
 		}
 
 		return Status.Success;
