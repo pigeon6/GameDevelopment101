@@ -6,8 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/BBTClassroom/CompleteProject/Lesson14/Tutorial.unity
-  - enabled: 1
-    path: Assets/BBTClassroom/CompleteProject/Lesson14/Lesson14.unity
+    path: Assets/BBTClassroom/Sample/Tutorial.unity
   - enabled: 1
     path: Assets/BBTClassroom/Sample/Stage1.unity
