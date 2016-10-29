@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/BBTClassroom/CompleteProject/Lesson14/Tutorial.unity
+  - enabled: 1
+    path: Assets/BBTClassroom/CompleteProject/Lesson14/Lesson14.unity
+  - enabled: 1
+    path: Assets/BBTClassroom/Sample/Stage1.unity

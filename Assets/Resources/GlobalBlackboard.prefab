@@ -55,7 +55,12 @@ MonoBehaviour:
   m_IntVars: []
   m_BoolVars: []
   m_StringVars: []
-  m_Vector3Vars: []
+  m_Vector3Vars:
+  - m_ID: -998141739
+    m_Name: LastCoinPos
+    m_Blackboard: {fileID: 114000011761682612}
+    m_IsConstant: 0
+    value: {x: 0, y: 0, z: 0}
   m_RectVars: []
   m_ColorVars: []
   m_QuaternionVars: []
@@ -171,5 +176,10 @@ MonoBehaviour:
     m_Blackboard: {fileID: 114000011761682612}
     m_IsConstant: 0
     m_IsSystem: 1
+  - m_ID: -186807155
+    m_Name: PlayerDie
+    m_Blackboard: {fileID: 114000011761682612}
+    m_IsConstant: 0
+    m_IsSystem: 0
   m_Namespace: BehaviourMachine
   m_GUICallback: {fileID: 0}

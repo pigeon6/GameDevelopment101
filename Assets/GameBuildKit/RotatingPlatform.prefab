@@ -1,0 +1,891 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000012514595948}
+  m_IsPrefabParent: 1
+--- !u!1 &1000012514595948
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000013408085344}
+  - 114: {fileID: 114000013062203854}
+  - 23: {fileID: 23000013802456976}
+  - 33: {fileID: 33000013288170040}
+  - 114: {fileID: 114000011085238516}
+  - 64: {fileID: 64000010605390662}
+  - 54: {fileID: 54000012526863908}
+  - 114: {fileID: 114000011130039316}
+  - 114: {fileID: 114000013278317400}
+  - 114: {fileID: 114000011055967018}
+  - 114: {fileID: 114000013567014000}
+  - 114: {fileID: 114000011120821946}
+  - 114: {fileID: 114000012126417274}
+  - 114: {fileID: 114000010481958912}
+  m_Layer: 0
+  m_Name: RotatingPlatform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000013408085344
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012514595948}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.73, y: -1.33, z: 17.85}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!23 &23000013802456976
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012514595948}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedWireframeHidden: 1
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &33000013288170040
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012514595948}
+  m_Mesh: {fileID: 0}
+--- !u!54 &54000012526863908
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012514595948}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &64000010605390662
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012514595948}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 0}
+--- !u!114 &114000010481958912
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012514595948}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c22f108f25b8d4045879dfff227bb81b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Blackboard: {fileID: 114000011130039316}
+  m_Parent: {fileID: 114000013278317400}
+  m_StateName: Stay
+  m_Color: 0
+  m_HideScript: 1
+  m_Position: {x: 310, y: 110}
+  m_Transitions:
+  - m_Destination: {fileID: 114000011055967018}
+    m_EventID: 126532212
+  m_CachedInstanceID: -728548
+  m_NodeSerialization:
+    m_NodeTypes:
+    - BehaviourMachine.GeTimeSinceLevelLoad
+    - BehaviourMachine.EveryFrame
+    - BehaviourMachine.GeTimeSinceLevelLoad
+    - BehaviourMachine.FloatOperation
+    - BehaviourMachine.IsFloatGreaterOrEqual
+    m_NodeTypeHash: 79e713e689ef821079e713e6883875a946d570ad
+    m_NodeFieldStartIndex: 000000000300000006000000090000001000000015000000
+    m_BranchIndex: ffffffffffffffffffffffffffffffffffffffff
+    m_UnityObjectValue: []
+    m_IntValue: 020000009098ed2a0100000001000000040000003c6daf04050000003c6daf049098ed2a010000002953d6010300000074ba8a072953d60154b8160d
+    m_FloatValue: []
+    m_StringValue:
+    - GeTimeSinceLevelLoad
+    - EveryFrame
+    - GeTimeSinceLevelLoad
+    - FloatOperation
+    - IsFloatGreaterOrEqual
+    m_CurveValue: []
+    m_GenericFieldType:
+    - BehaviourMachine.FloatVar
+    m_GenericFieldHash: 00000000
+    m_GenericFieldSize: 01000000
+    m_FieldIndex: 0000000000000000010000000200000001000000030000000400000002000000050000000600000003000000070000000000000008000000090000000a0000000b000000040000000c0000000d0000000e000000
+    m_FieldType: 0100000002000000120000000100000002000000050000000100000002000000120000000100000002000000120000001f00000012000000040000001200000001000000020000001e0000001200000012000000
+    m_FieldPath:
+    - instanceID
+    - name
+    - storeTime
+    - instanceID
+    - name
+    - enabled
+    - instanceID
+    - name
+    - storeTime
+    - instanceID
+    - name
+    - targetValue
+    - values
+    - values.data[0]
+    - operation
+    - store
+    - instanceID
+    - name
+    - onSuccess
+    - a
+    - b
+  m_Description: 
+  m_IgnoreTimeScale: 0
+  m_ResetStatusOnDisable: 1
+--- !u!114 &114000011055967018
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012514595948}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c22f108f25b8d4045879dfff227bb81b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Blackboard: {fileID: 114000011130039316}
+  m_Parent: {fileID: 114000013278317400}
+  m_StateName: Move To Point A
+  m_Color: 0
+  m_HideScript: 1
+  m_Position: {x: 10, y: 90}
+  m_Transitions:
+  - m_Destination: {fileID: 114000012126417274}
+    m_EventID: 126532212
+  m_CachedInstanceID: -728536
+  m_NodeSerialization:
+    m_NodeTypes:
+    - GetTime
+    - BehaviourMachine.EveryFrame
+    - MoveTo
+    m_NodeTypeHash: 79e713e689ef82100f1bf3e5
+    m_NodeFieldStartIndex: 0000000003000000060000000f000000
+    m_BranchIndex: ffffffffffffffffffffffff
+    m_UnityObjectValue:
+    - {fileID: 1000012514595948}
+    m_IntValue: 030000002953d6010100000001000000020000002953d6019c3069039c02666359c6be0d74ba8a07
+    m_FloatValue: []
+    m_StringValue:
+    - GetTime
+    - EveryFrame
+    - MoveTo
+    m_CurveValue: []
+    m_GenericFieldType:
+    - BehaviourMachine.ConcreteGameObjectVar
+    m_GenericFieldHash: e5faf787
+    m_GenericFieldSize: 01000000
+    m_FieldIndex: 000000000000000001000000020000000100000003000000040000000200000000000000000000000500000006000000070000000800000009000000
+    m_FieldType: 0100000002000000120000000100000002000000050000000100000002000000100000000f000000120000001200000016000000160000001e000000
+    m_FieldPath:
+    - instanceID
+    - name
+    - newTime
+    - instanceID
+    - name
+    - enabled
+    - instanceID
+    - name
+    - objectToMove
+    - objectToMove.value
+    - tStart
+    - durationSec
+    - moveFrom
+    - moveTo
+    - onCompleteEvent
+  m_Description: 
+  m_IgnoreTimeScale: 0
+  m_ResetStatusOnDisable: 1
+--- !u!114 &114000011085238516
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012514595948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 185759285, guid: 0472bdc8d6d15384d98f22ee34302f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _quads:
+  - _indices: 000000000100000002000000010000000300000002000000
+    _distinctIndices: 00000000010000000200000003000000
+    _edges:
+    - x: 0
+      y: 1
+    - x: 2
+      y: 0
+    - x: 1
+      y: 3
+    - x: 3
+      y: 2
+    _smoothingGroup: 0
+    _uv:
+      useWorldSpace: 0
+      flipU: 0
+      flipV: 0
+      swapUV: 0
+      fill: 1
+      scale: {x: 1, y: 1}
+      offset: {x: 0, y: 0}
+      rotation: 0
+      justify: 5
+      localPivot: {x: 2.6549404, y: 0.5}
+      localSize: {x: 5.3098807, y: 1}
+    _mat: {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+    manualUV: 0
+    elementGroup: -1
+    textureGroup: -1
+  - _indices: 040000000500000006000000050000000700000006000000
+    _distinctIndices: 04000000050000000600000007000000
+    _edges:
+    - x: 4
+      y: 5
+    - x: 6
+      y: 4
+    - x: 5
+      y: 7
+    - x: 7
+      y: 6
+    _smoothingGroup: 0
+    _uv:
+      useWorldSpace: 0
+      flipU: 0
+      flipV: 0
+      swapUV: 0
+      fill: 1
+      scale: {x: 1, y: 1}
+      offset: {x: 0, y: 0}
+      rotation: 0
+      justify: 5
+      localPivot: {x: 0.95826817, y: 0.5}
+      localSize: {x: 1.9165363, y: 1}
+    _mat: {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+    manualUV: 0
+    elementGroup: -1
+    textureGroup: -1
+  - _indices: 08000000090000000a000000090000000b0000000a000000
+    _distinctIndices: 08000000090000000a0000000b000000
+    _edges:
+    - x: 8
+      y: 9
+    - x: 10
+      y: 8
+    - x: 9
+      y: 11
+    - x: 11
+      y: 10
+    _smoothingGroup: 0
+    _uv:
+      useWorldSpace: 0
+      flipU: 0
+      flipV: 0
+      swapUV: 0
+      fill: 1
+      scale: {x: 1, y: 1}
+      offset: {x: 0, y: 0}
+      rotation: 0
+      justify: 5
+      localPivot: {x: 2.6549404, y: 0.5}
+      localSize: {x: 5.3098807, y: 1}
+    _mat: {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+    manualUV: 0
+    elementGroup: -1
+    textureGroup: -1
+  - _indices: 0c0000000d0000000e0000000d0000000f0000000e000000
+    _distinctIndices: 0c0000000d0000000e0000000f000000
+    _edges:
+    - x: 12
+      y: 13
+    - x: 14
+      y: 12
+    - x: 13
+      y: 15
+    - x: 15
+      y: 14
+    _smoothingGroup: 0
+    _uv:
+      useWorldSpace: 0
+      flipU: 0
+      flipV: 0
+      swapUV: 0
+      fill: 1
+      scale: {x: 1, y: 1}
+      offset: {x: 0, y: 0}
+      rotation: 0
+      justify: 5
+      localPivot: {x: 0.95826817, y: 0.5}
+      localSize: {x: 1.9165363, y: 1}
+    _mat: {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+    manualUV: 0
+    elementGroup: -1
+    textureGroup: -1
+  - _indices: 100000001100000012000000110000001300000012000000
+    _distinctIndices: 10000000110000001200000013000000
+    _edges:
+    - x: 16
+      y: 17
+    - x: 18
+      y: 16
+    - x: 17
+      y: 19
+    - x: 19
+      y: 18
+    _smoothingGroup: 0
+    _uv:
+      useWorldSpace: 0
+      flipU: 0
+      flipV: 0
+      swapUV: 0
+      fill: 1
+      scale: {x: 1, y: 1}
+      offset: {x: 0, y: 0}
+      rotation: 0
+      justify: 5
+      localPivot: {x: 2.6549404, y: 0.95826817}
+      localSize: {x: 5.3098807, y: 1.9165363}
+    _mat: {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+    manualUV: 0
+    elementGroup: -1
+    textureGroup: -1
+  - _indices: 140000001500000016000000150000001700000016000000
+    _distinctIndices: 14000000150000001600000017000000
+    _edges:
+    - x: 20
+      y: 21
+    - x: 22
+      y: 20
+    - x: 21
+      y: 23
+    - x: 23
+      y: 22
+    _smoothingGroup: 0
+    _uv:
+      useWorldSpace: 0
+      flipU: 0
+      flipV: 0
+      swapUV: 0
+      fill: 1
+      scale: {x: 1, y: 1}
+      offset: {x: 0, y: 0}
+      rotation: 0
+      justify: 5
+      localPivot: {x: 2.6549404, y: 0.95826817}
+      localSize: {x: 5.3098807, y: 1.9165363}
+    _mat: {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+    manualUV: 0
+    elementGroup: -1
+    textureGroup: -1
+  _sharedIndices:
+  - array: 000000000d00000016000000
+  - array: 010000000400000017000000
+  - array: 020000000f00000010000000
+  - array: 030000000600000011000000
+  - array: 050000000800000015000000
+  - array: 070000000a00000013000000
+  - array: 090000000c00000014000000
+  - array: 0b0000000e00000012000000
+  _vertices:
+  - {x: -2.3098807, y: 0, z: 0.91653633}
+  - {x: 3, y: 0, z: 0.91653633}
+  - {x: -2.3098807, y: 1, z: 0.91653633}
+  - {x: 3, y: 1, z: 0.91653633}
+  - {x: 3, y: 0, z: 0.91653633}
+  - {x: 3, y: 0, z: -1}
+  - {x: 3, y: 1, z: 0.91653633}
+  - {x: 3, y: 1, z: -1}
+  - {x: 3, y: 0, z: -1}
+  - {x: -2.3098807, y: 0, z: -1}
+  - {x: 3, y: 1, z: -1}
+  - {x: -2.3098807, y: 1, z: -1}
+  - {x: -2.3098807, y: 0, z: -1}
+  - {x: -2.3098807, y: 0, z: 0.91653633}
+  - {x: -2.3098807, y: 1, z: -1}
+  - {x: -2.3098807, y: 1, z: 0.91653633}
+  - {x: -2.3098807, y: 1, z: 0.91653633}
+  - {x: 3, y: 1, z: 0.91653633}
+  - {x: -2.3098807, y: 1, z: -1}
+  - {x: 3, y: 1, z: -1}
+  - {x: -2.3098807, y: 0, z: -1}
+  - {x: 3, y: 0, z: -1}
+  - {x: -2.3098807, y: 0, z: 0.91653633}
+  - {x: 3, y: 0, z: 0.91653633}
+  _uv:
+  - {x: 5.3098807, y: 0}
+  - {x: 0, y: 0}
+  - {x: 5.3098807, y: 1}
+  - {x: 0, y: 1}
+  - {x: 1.9165363, y: 0}
+  - {x: 0, y: 0}
+  - {x: 1.9165363, y: 1}
+  - {x: 0, y: 1}
+  - {x: 5.3098807, y: 0}
+  - {x: 0, y: 0}
+  - {x: 5.3098807, y: 1}
+  - {x: 0, y: 1}
+  - {x: 1.9165363, y: 0}
+  - {x: 0, y: 0}
+  - {x: 1.9165363, y: 1}
+  - {x: 0, y: 1}
+  - {x: 0, y: 1.9165363}
+  - {x: 5.3098807, y: 1.9165363}
+  - {x: 0, y: 0}
+  - {x: 5.3098807, y: 0}
+  - {x: 5.3098807, y: 0}
+  - {x: 0, y: 0}
+  - {x: 5.3098807, y: 1.9165363}
+  - {x: 0, y: 1.9165363}
+  _uv3: []
+  _uv4: []
+  _tangents: []
+  _sharedIndicesUV: []
+  _colors:
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  userCollisions: 0
+  isSelectable: 1
+  unwrapParameters:
+    hardAngle: 88
+    packMargin: 8
+    angleError: 15
+    areaError: 15
+  asset_guid: 
+  dontDestroyMeshOnDelete: 0
+  m_selectedFaces:
+  - _indices: 000000000100000002000000010000000300000002000000
+    _distinctIndices: 00000000010000000200000003000000
+    _edges:
+    - x: 0
+      y: 1
+    - x: 2
+      y: 0
+    - x: 1
+      y: 3
+    - x: 3
+      y: 2
+    _smoothingGroup: 0
+    _uv:
+      useWorldSpace: 0
+      flipU: 0
+      flipV: 0
+      swapUV: 0
+      fill: 1
+      scale: {x: 1, y: 1}
+      offset: {x: 0, y: 0}
+      rotation: 0
+      justify: 5
+      localPivot: {x: 2.6549404, y: 0.5}
+      localSize: {x: 5.3098807, y: 1}
+    _mat: {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+    manualUV: 0
+    elementGroup: -1
+    textureGroup: -1
+  m_SelectedEdges:
+  - x: 0
+    y: 1
+  - x: 2
+    y: 0
+  - x: 1
+    y: 3
+  - x: 3
+    y: 2
+  m_selectedTriangles: 000000000100000002000000010000000300000002000000
+--- !u!114 &114000011120821946
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012514595948}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c22f108f25b8d4045879dfff227bb81b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Blackboard: {fileID: 114000011130039316}
+  m_Parent: {fileID: 114000013278317400}
+  m_StateName: START
+  m_Color: 0
+  m_HideScript: 1
+  m_Position: {x: 10, y: 0}
+  m_Transitions:
+  - m_Destination: {fileID: 114000011055967018}
+    m_EventID: 126532212
+  m_CachedInstanceID: -728540
+  m_NodeSerialization:
+    m_NodeTypes:
+    - BehaviourMachine.Vector3Set
+    - BehaviourMachine.Vector3Set
+    - BehaviourMachine.SendEvent
+    - BehaviourMachine.EveryFrame
+    m_NodeTypeHash: 5f9d15385f9d15380ee2ebc689ef8210
+    m_NodeFieldStartIndex: 0000000008000000100000001600000019000000
+    m_BranchIndex: ffffffffffffffffffffffffffffffff
+    m_UnityObjectValue:
+    - {fileID: 1000012514595948}
+    - {fileID: 4000013408085344}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_IntValue: 020000009c026663000000000400000059c6be0d000000000300000074ba8a070100000001000000
+    m_FloatValue: []
+    m_StringValue:
+    - Vector3Set
+    - position
+    - Vector3Set
+    - position
+    - SendEvent
+    - BehaviourMachine.ConcreteFloatVar
+    - BehaviourMachine.ConcreteFloatVar
+    - BehaviourMachine.ConcreteBoolVar
+    - EveryFrame
+    m_CurveValue: []
+    m_GenericFieldType:
+    - BehaviourMachine.Vector3Property
+    - BehaviourMachine.Vector3Property
+    m_GenericFieldHash: 6305154e6305154e
+    m_GenericFieldSize: 0400000004000000
+    m_FieldIndex: 00000000000000000100000000000000000000000100000002000000010000000300000002000000040000000100000002000000030000000500000003000000060000000400000007000000050000000600000007000000080000000800000009000000
+    m_FieldType: 010000000200000016000000100000000f0000000f0000000500000002000000010000000200000016000000100000000f0000000f000000050000000200000001000000020000001e000000110000001100000011000000010000000200000005000000
+    m_FieldPath:
+    - instanceID
+    - name
+    - variable
+    - newValue
+    - newValue.target
+    - newValue.component
+    - newValue.isStatic
+    - newValue.property
+    - instanceID
+    - name
+    - variable
+    - newValue
+    - newValue.target
+    - newValue.component
+    - newValue.isStatic
+    - newValue.property
+    - instanceID
+    - name
+    - eventToSend
+    - delay
+    - storeDelayTime
+    - storeEventUsed
+    - instanceID
+    - name
+    - enabled
+  m_Description: 
+  m_IgnoreTimeScale: 0
+  m_ResetStatusOnDisable: 1
+--- !u!114 &114000011130039316
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012514595948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 634db10235c0241d6ad43433a106016d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FloatVars:
+  - m_ID: 57225372
+    m_Name: MoveTimeSec
+    m_Blackboard: {fileID: 114000011130039316}
+    m_IsConstant: 0
+    value: 5
+  - m_ID: 219592788
+    m_Name: StayTimeSec
+    m_Blackboard: {fileID: 114000011130039316}
+    m_IsConstant: 0
+    value: 1
+  - m_ID: 30823209
+    m_Name: t
+    m_Blackboard: {fileID: 114000011130039316}
+    m_IsConstant: 0
+    value: 0
+  - m_ID: 78605628
+    m_Name: n
+    m_Blackboard: {fileID: 114000011130039316}
+    m_IsConstant: 0
+    value: 0
+  - m_ID: 720214160
+    m_Name: s
+    m_Blackboard: {fileID: 114000011130039316}
+    m_IsConstant: 0
+    value: 0
+  m_IntVars: []
+  m_BoolVars: []
+  m_StringVars: []
+  m_Vector3Vars:
+  - m_ID: 230606425
+    m_Name: MovingPoint
+    m_Blackboard: {fileID: 114000011130039316}
+    m_IsConstant: 0
+    value: {x: 0, y: 0, z: 5}
+  - m_ID: 1667629724
+    m_Name: OriginalPos
+    m_Blackboard: {fileID: 114000011130039316}
+    m_IsConstant: 0
+    value: {x: 0, y: 0, z: 0}
+  m_RectVars: []
+  m_ColorVars: []
+  m_QuaternionVars: []
+  m_GameObjectVars: []
+  m_TextureVars: []
+  m_MaterialVars: []
+  m_ObjectVars: []
+  m_DynamicLists: []
+  m_FsmEvents: []
+  m_ConcreteFsmEvents:
+  - m_ID: 126532212
+    m_Name: Proceed
+    m_Blackboard: {fileID: 114000011130039316}
+    m_IsConstant: 0
+    m_IsSystem: 0
+  m_Namespace: 
+--- !u!114 &114000012126417274
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012514595948}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c22f108f25b8d4045879dfff227bb81b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Blackboard: {fileID: 114000011130039316}
+  m_Parent: {fileID: 114000013278317400}
+  m_StateName: Stay
+  m_Color: 0
+  m_HideScript: 1
+  m_Position: {x: 10, y: 260}
+  m_Transitions:
+  - m_Destination: {fileID: 114000013567014000}
+    m_EventID: 126532212
+  m_CachedInstanceID: -728546
+  m_NodeSerialization:
+    m_NodeTypes:
+    - BehaviourMachine.GeTimeSinceLevelLoad
+    - BehaviourMachine.EveryFrame
+    - BehaviourMachine.GeTimeSinceLevelLoad
+    - BehaviourMachine.FloatOperation
+    - BehaviourMachine.IsFloatGreaterOrEqual
+    m_NodeTypeHash: 79e713e689ef821079e713e6883875a946d570ad
+    m_NodeFieldStartIndex: 000000000300000006000000090000001000000015000000
+    m_BranchIndex: ffffffffffffffffffffffffffffffffffffffff
+    m_UnityObjectValue: []
+    m_IntValue: 020000009098ed2a0100000001000000040000003c6daf04050000003c6daf049098ed2a010000002953d6010300000074ba8a072953d60154b8160d
+    m_FloatValue: []
+    m_StringValue:
+    - GeTimeSinceLevelLoad
+    - EveryFrame
+    - GeTimeSinceLevelLoad
+    - FloatOperation
+    - IsFloatGreaterOrEqual
+    m_CurveValue: []
+    m_GenericFieldType:
+    - BehaviourMachine.FloatVar
+    m_GenericFieldHash: 00000000
+    m_GenericFieldSize: 01000000
+    m_FieldIndex: 0000000000000000010000000200000001000000030000000400000002000000050000000600000003000000070000000000000008000000090000000a0000000b000000040000000c0000000d0000000e000000
+    m_FieldType: 0100000002000000120000000100000002000000050000000100000002000000120000000100000002000000120000001f00000012000000040000001200000001000000020000001e0000001200000012000000
+    m_FieldPath:
+    - instanceID
+    - name
+    - storeTime
+    - instanceID
+    - name
+    - enabled
+    - instanceID
+    - name
+    - storeTime
+    - instanceID
+    - name
+    - targetValue
+    - values
+    - values.data[0]
+    - operation
+    - store
+    - instanceID
+    - name
+    - onSuccess
+    - a
+    - b
+  m_Description: 
+  m_IgnoreTimeScale: 0
+  m_ResetStatusOnDisable: 1
+--- !u!114 &114000013062203854
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012514595948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 16342205, guid: 0472bdc8d6d15384d98f22ee34302f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _entityType: 0
+--- !u!114 &114000013278317400
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012514595948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a27b962ddfa21461eb78fac1cb2f955f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Blackboard: {fileID: 114000011130039316}
+  m_Parent: {fileID: 0}
+  m_StateName: StateMachine
+  m_Color: 0
+  m_HideScript: 1
+  m_Position: {x: 0, y: 0}
+  m_Transitions: []
+  m_CachedInstanceID: -728534
+  m_Description: 
+  m_EnabledState: {fileID: 0}
+  m_LastEnabledState: {fileID: 0}
+  m_StartState: {fileID: 114000011120821946}
+  m_AnyState: {fileID: 0}
+  m_ConcurrentState: {fileID: 0}
+--- !u!114 &114000013567014000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012514595948}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c22f108f25b8d4045879dfff227bb81b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Blackboard: {fileID: 114000011130039316}
+  m_Parent: {fileID: 114000013278317400}
+  m_StateName: Move To Original
+  m_Color: 0
+  m_HideScript: 1
+  m_Position: {x: 290, y: 260}
+  m_Transitions:
+  - m_Destination: {fileID: 114000010481958912}
+    m_EventID: 126532212
+  m_CachedInstanceID: -728538
+  m_NodeSerialization:
+    m_NodeTypes:
+    - GetTime
+    - BehaviourMachine.EveryFrame
+    - MoveTo
+    m_NodeTypeHash: 79e713e689ef82100f1bf3e5
+    m_NodeFieldStartIndex: 0000000003000000060000000f000000
+    m_BranchIndex: ffffffffffffffffffffffff
+    m_UnityObjectValue:
+    - {fileID: 1000012514595948}
+    m_IntValue: 030000002953d6010100000001000000020000002953d6019c30690359c6be0d9c02666374ba8a07
+    m_FloatValue: []
+    m_StringValue:
+    - GetTime
+    - EveryFrame
+    - MoveTo
+    m_CurveValue: []
+    m_GenericFieldType:
+    - BehaviourMachine.ConcreteGameObjectVar
+    m_GenericFieldHash: e5faf787
+    m_GenericFieldSize: 01000000
+    m_FieldIndex: 000000000000000001000000020000000100000003000000040000000200000000000000000000000500000006000000070000000800000009000000
+    m_FieldType: 0100000002000000120000000100000002000000050000000100000002000000100000000f000000120000001200000016000000160000001e000000
+    m_FieldPath:
+    - instanceID
+    - name
+    - newTime
+    - instanceID
+    - name
+    - enabled
+    - instanceID
+    - name
+    - objectToMove
+    - objectToMove.value
+    - tStart
+    - durationSec
+    - moveFrom
+    - moveTo
+    - onCompleteEvent
+  m_Description: 
+  m_IgnoreTimeScale: 0
+  m_ResetStatusOnDisable: 1

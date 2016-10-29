@@ -1,0 +1,256 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000013666022318}
+  m_IsPrefabParent: 1
+--- !u!1 &1000013666022318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000011461428422}
+  - 114: {fileID: 114000011328521006}
+  - 114: {fileID: 114000013155414048}
+  - 114: {fileID: 114000013417566050}
+  - 114: {fileID: 114000010938094542}
+  m_Layer: 0
+  m_Name: GameSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000011461428422
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013666022318}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 731.4, y: 475, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114000010938094542
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013666022318}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c22f108f25b8d4045879dfff227bb81b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Blackboard: {fileID: 114000011328521006}
+  m_Parent: {fileID: 114000013155414048}
+  m_StateName: GameClear
+  m_Color: 0
+  m_HideScript: 1
+  m_Position: {x: 250, y: 80}
+  m_Transitions: []
+  m_CachedInstanceID: -451642
+  m_NodeSerialization:
+    m_NodeTypes:
+    - BehaviourMachine.SetEnabled
+    - BehaviourMachine.EveryFrame
+    m_NodeTypeHash: c788e80889ef8210
+    m_NodeFieldStartIndex: 00000000080000000b000000
+    m_BranchIndex: ffffffffffffffff
+    m_UnityObjectValue:
+    - {fileID: 0}
+    m_IntValue: 02000000010000000100000001000000
+    m_FloatValue: []
+    m_StringValue:
+    - SetEnabled
+    - UnityEngine.UI.Text
+    - EveryFrame
+    m_CurveValue: []
+    m_GenericFieldType:
+    - BehaviourMachine.ConcreteGameObjectVar
+    - BehaviourMachine.ConcreteBoolVar
+    - BehaviourMachine.ConcreteStringVar
+    m_GenericFieldHash: e5faf787e4b98a667de9e602
+    m_GenericFieldSize: 010000000100000001000000
+    m_FieldIndex: 0000000000000000000000000000000001000000010000000200000001000000020000000200000003000000
+    m_FieldType: 0100000002000000100000000f00000010000000050000001000000002000000010000000200000005000000
+    m_FieldPath:
+    - instanceID
+    - name
+    - gameObject
+    - gameObject.value
+    - Value
+    - Value.value
+    - componentType
+    - componentType.value
+    - instanceID
+    - name
+    - enabled
+  m_Description: 
+  m_IgnoreTimeScale: 0
+  m_ResetStatusOnDisable: 1
+--- !u!114 &114000011328521006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013666022318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 634db10235c0241d6ad43433a106016d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FloatVars:
+  - m_ID: 1220435858
+    m_Name: GameTime
+    m_Blackboard: {fileID: 114000011328521006}
+    m_IsConstant: 0
+    value: 0
+  m_IntVars:
+  - m_ID: 695116503
+    m_Name: NumberOfCoins
+    m_Blackboard: {fileID: 114000011328521006}
+    m_IsConstant: 0
+    value: 0
+  m_BoolVars: []
+  m_StringVars: []
+  m_Vector3Vars: []
+  m_RectVars: []
+  m_ColorVars: []
+  m_QuaternionVars: []
+  m_GameObjectVars: []
+  m_TextureVars: []
+  m_MaterialVars: []
+  m_ObjectVars: []
+  m_DynamicLists: []
+  m_FsmEvents: []
+  m_ConcreteFsmEvents:
+  - m_ID: 772874436
+    m_Name: GameClear
+    m_Blackboard: {fileID: 114000011328521006}
+    m_IsConstant: 0
+    m_IsSystem: 0
+  m_Namespace: 
+--- !u!114 &114000013155414048
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013666022318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a27b962ddfa21461eb78fac1cb2f955f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Blackboard: {fileID: 114000011328521006}
+  m_Parent: {fileID: 0}
+  m_StateName: StateMachine
+  m_Color: 0
+  m_HideScript: 1
+  m_Position: {x: 0, y: 0}
+  m_Transitions: []
+  m_CachedInstanceID: -451646
+  m_Description: 
+  m_EnabledState: {fileID: 0}
+  m_LastEnabledState: {fileID: 0}
+  m_StartState: {fileID: 114000013417566050}
+  m_AnyState: {fileID: 0}
+  m_ConcurrentState: {fileID: 0}
+--- !u!114 &114000013417566050
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013666022318}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c22f108f25b8d4045879dfff227bb81b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Blackboard: {fileID: 114000011328521006}
+  m_Parent: {fileID: 114000013155414048}
+  m_StateName: InGame
+  m_Color: 0
+  m_HideScript: 1
+  m_Position: {x: -10, y: 50}
+  m_Transitions:
+  - m_Destination: {fileID: 114000010938094542}
+    m_EventID: 772874436
+  m_CachedInstanceID: -451644
+  m_NodeSerialization:
+    m_NodeTypes:
+    - BehaviourMachine.EveryFrame
+    - BehaviourMachine.GeTimeSinceLevelLoad
+    - CountGameObjectsByTag
+    - BehaviourMachine.IsIntLessOrEqual
+    - BehaviourMachine.FloatToString
+    m_NodeTypeHash: 89ef821079e713e6b1245af0ecce3d4bd985f3b4
+    m_NodeFieldStartIndex: 0000000003000000060000000b000000110000001b000000
+    m_BranchIndex: ffffffffffffffffffffffffffffffffffffffff
+    m_UnityObjectValue:
+    - {fileID: 0}
+    - {fileID: 0}
+    m_IntValue: 010000000100000004000000925fbe4802000000d7a26e2903000000c420112ed7a26e290000000005000000925fbe4800000000
+    m_FloatValue: []
+    m_StringValue:
+    - EveryFrame
+    - GeTimeSinceLevelLoad
+    - CountGameObjectsByTag
+    - Coin
+    - IsIntLessOrEqual
+    - FloatToString
+    - F2
+    - text
+    m_CurveValue: []
+    m_GenericFieldType:
+    - BehaviourMachine.ConcreteStringVar
+    - BehaviourMachine.ConcreteIntVar
+    - BehaviourMachine.ConcreteStringVar
+    - BehaviourMachine.StringProperty
+    m_GenericFieldHash: 7de9e602febf89497de9e6026305154e
+    m_GenericFieldSize: 01000000010000000100000004000000
+    m_FieldIndex: 00000000000000000100000002000000010000000300000004000000020000000000000003000000050000000600000004000000070000000800000001000000090000000a000000050000000b00000002000000060000000300000000000000010000000c00000007000000
+    m_FieldType: 010000000200000005000000010000000200000012000000010000000200000010000000020000001300000001000000020000001e0000001300000010000000010000000100000002000000120000001000000002000000100000000f0000000f0000000500000002000000
+    m_FieldPath:
+    - instanceID
+    - name
+    - enabled
+    - instanceID
+    - name
+    - storeTime
+    - instanceID
+    - name
+    - tag
+    - tag.value
+    - count
+    - instanceID
+    - name
+    - onSuccess
+    - a
+    - b
+    - b.value
+    - instanceID
+    - name
+    - floatVariable
+    - format
+    - format.value
+    - storeString
+    - storeString.target
+    - storeString.component
+    - storeString.isStatic
+    - storeString.property
+  m_Description: 
+  m_IgnoreTimeScale: 0
+  m_ResetStatusOnDisable: 1
