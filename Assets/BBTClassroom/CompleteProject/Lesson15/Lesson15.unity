@@ -50,8 +50,8 @@ LightmapSettings:
     m_AlbedoBoost: 1
     m_TemporalCoherenceThreshold: 1
     m_EnvironmentLightingMode: 0
-    m_EnableBakedLightmaps: 1
-    m_EnableRealtimeLightmaps: 1
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
     serializedVersion: 4
     m_Resolution: 2
@@ -4481,7 +4481,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 810, y: 90}
   m_Transitions: []
-  m_CachedInstanceID: -199696
+  m_CachedInstanceID: 15578
   m_Description: 
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -4554,7 +4554,7 @@ MonoBehaviour:
     m_EventID: 652329921
   - m_Destination: {fileID: 471793693}
     m_EventID: 1945796172
-  m_CachedInstanceID: -194130
+  m_CachedInstanceID: 15580
   m_NodeSerialization:
     m_NodeTypes:
     - RankingBoard
@@ -4637,7 +4637,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 620, y: 260}
   m_Transitions: []
-  m_CachedInstanceID: -184846
+  m_CachedInstanceID: 15582
   m_Description: 
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -4705,7 +4705,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 471793692}
     m_EventID: 1945796172
-  m_CachedInstanceID: -159032
+  m_CachedInstanceID: 15584
   m_NodeSerialization:
     m_NodeTypes:
     - BehaviourMachine.StringSet
@@ -4789,7 +4789,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 471793690}
     m_EventID: 652329921
-  m_CachedInstanceID: -366078
+  m_CachedInstanceID: 15586
   m_Description: 
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1

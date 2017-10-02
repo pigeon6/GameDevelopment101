@@ -50,8 +50,8 @@ LightmapSettings:
     m_AlbedoBoost: 1
     m_TemporalCoherenceThreshold: 1
     m_EnvironmentLightingMode: 0
-    m_EnableBakedLightmaps: 1
-    m_EnableRealtimeLightmaps: 1
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
     serializedVersion: 4
     m_Resolution: 2
@@ -4765,7 +4765,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 1006633146}
     m_EventID: 157965272
-  m_CachedInstanceID: -107870
+  m_CachedInstanceID: 15052
   m_Description: 
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -4845,7 +4845,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 1006633148}
     m_EventID: 157965272
-  m_CachedInstanceID: -98522
+  m_CachedInstanceID: 15054
   m_NodeSerialization:
     m_NodeTypes:
     - BehaviourMachine.EveryFrame
@@ -4902,7 +4902,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 310, y: 10}
   m_Transitions: []
-  m_CachedInstanceID: -98520
+  m_CachedInstanceID: 15056
 --- !u!114 &1006633148
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4923,7 +4923,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 1006633147}
     m_EventID: 157965272
-  m_CachedInstanceID: -98518
+  m_CachedInstanceID: 15058
   m_Description: 
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -5009,7 +5009,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: -98118
+  m_CachedInstanceID: 15060
   m_Description: 
   m_EnabledState: {fileID: 0}
   m_LastEnabledState: {fileID: 0}
