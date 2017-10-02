@@ -1348,6 +1348,11 @@ Prefab:
       propertyPath: m_NodeSerialization.m_UnityObjectValue.Array.data[3]
       value: 
       objectReference: {fileID: 299772125}
+    - target: {fileID: 114000011502385524, guid: 3bf668b495b2047789a3370c6563f643,
+        type: 2}
+      propertyPath: m_StringVars.Array.data[0].value
+      value: Lesson15_Stage1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3bf668b495b2047789a3370c6563f643, type: 2}
   m_IsPrefabParent: 0
@@ -4765,7 +4770,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 1006633146}
     m_EventID: 157965272
-  m_CachedInstanceID: 15052
+  m_CachedInstanceID: 33208
   m_Description: 
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -4845,7 +4850,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 1006633148}
     m_EventID: 157965272
-  m_CachedInstanceID: 15054
+  m_CachedInstanceID: 33210
   m_NodeSerialization:
     m_NodeTypes:
     - BehaviourMachine.EveryFrame
@@ -4902,7 +4907,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 310, y: 10}
   m_Transitions: []
-  m_CachedInstanceID: 15056
+  m_CachedInstanceID: 33212
 --- !u!114 &1006633148
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4923,7 +4928,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 1006633147}
     m_EventID: 157965272
-  m_CachedInstanceID: 15058
+  m_CachedInstanceID: 33214
   m_Description: 
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -5009,7 +5014,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 15060
+  m_CachedInstanceID: 33216
   m_Description: 
   m_EnabledState: {fileID: 0}
   m_LastEnabledState: {fileID: 0}
@@ -5940,7 +5945,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-1162
+  m_Name: pb_Mesh-277144
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -6288,25 +6293,25 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114000010351917530, guid: bd6262e0320ca431db91b119e19b2cc9,
+    - target: {fileID: 114000010606659378, guid: bd6262e0320ca431db91b119e19b2cc9,
         type: 2}
       propertyPath: m_CachedInstanceID
-      value: -90844
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011028243990, guid: bd6262e0320ca431db91b119e19b2cc9,
-        type: 2}
-      propertyPath: m_CachedInstanceID
-      value: -59702
+      value: -250300
       objectReference: {fileID: 0}
     - target: {fileID: 114000014082144388, guid: bd6262e0320ca431db91b119e19b2cc9,
         type: 2}
       propertyPath: m_CachedInstanceID
-      value: -58876
+      value: -250298
       objectReference: {fileID: 0}
-    - target: {fileID: 114000010606659378, guid: bd6262e0320ca431db91b119e19b2cc9,
+    - target: {fileID: 114000011028243990, guid: bd6262e0320ca431db91b119e19b2cc9,
         type: 2}
       propertyPath: m_CachedInstanceID
-      value: -57804
+      value: -250296
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010351917530, guid: bd6262e0320ca431db91b119e19b2cc9,
+        type: 2}
+      propertyPath: m_CachedInstanceID
+      value: -250294
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bd6262e0320ca431db91b119e19b2cc9, type: 2}

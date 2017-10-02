@@ -61,7 +61,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: -191110
+  m_CachedInstanceID: 15150
   m_Description: 
   m_EnabledState: {fileID: 0}
   m_LastEnabledState: {fileID: 0}
@@ -86,7 +86,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 240, y: 210}
   m_Transitions: []
-  m_CachedInstanceID: -191108
+  m_CachedInstanceID: 15148
   m_Description: 
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -193,7 +193,7 @@ MonoBehaviour:
     m_Name: NextLevel
     m_Blackboard: {fileID: 114000011502385524}
     m_IsConstant: 0
-    value: Lesson14
+    value: Lesson14_Stage1
   m_Vector3Vars: []
   m_RectVars: []
   m_ColorVars: []
@@ -231,7 +231,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 114000010443025286}
     m_EventID: 652329921
-  m_CachedInstanceID: -191114
+  m_CachedInstanceID: 15152
   m_NodeSerialization:
     m_NodeTypes:
     - BehaviourMachine.EveryFrame

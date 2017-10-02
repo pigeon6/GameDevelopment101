@@ -4449,12 +4449,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 13
---- !u!114 &436716424 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114000011308163444, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-    type: 2}
-  m_PrefabInternal: {fileID: 809116575}
-  m_Script: {fileID: 11500000, guid: 634db10235c0241d6ad43433a106016d, type: 3}
 --- !u!43 &456349589
 Mesh:
   m_ObjectHideFlags: 0
@@ -11468,7 +11462,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh23928
+  m_Name: pb_Mesh21198
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -12962,665 +12956,55 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 114000011308163444, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_GameObjectVars.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_IntValue.Array.size
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_NodeTypes.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldType.Array.size
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldPath.Array.size
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FloatValue.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_CurveValue.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldIndex.Array.size
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_BranchIndex.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_StringValue.Array.size
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_NodeTypeHash.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_UnityObjectValue.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_GenericFieldType.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_GenericFieldHash.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_GenericFieldSize.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_NodeFieldStartIndex.Array.size
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_CurveValue.Array.data[0].curve.m_Curve.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000014093139808, guid: 15a07a9f91fe94d4199492828ba4d7f1, type: 2}
+    - target: {fileID: 4000013010803516, guid: b1592c665590348679c04d90b00bd176, type: 2}
       propertyPath: m_LocalPosition.x
       value: -65.7
       objectReference: {fileID: 0}
-    - target: {fileID: 4000014093139808, guid: 15a07a9f91fe94d4199492828ba4d7f1, type: 2}
+    - target: {fileID: 4000013010803516, guid: b1592c665590348679c04d90b00bd176, type: 2}
       propertyPath: m_LocalPosition.y
       value: -23.2
       objectReference: {fileID: 0}
-    - target: {fileID: 4000014093139808, guid: 15a07a9f91fe94d4199492828ba4d7f1, type: 2}
+    - target: {fileID: 4000013010803516, guid: b1592c665590348679c04d90b00bd176, type: 2}
       propertyPath: m_LocalPosition.z
       value: 63.1
       objectReference: {fileID: 0}
-    - target: {fileID: 4000014093139808, guid: 15a07a9f91fe94d4199492828ba4d7f1, type: 2}
+    - target: {fileID: 4000013010803516, guid: b1592c665590348679c04d90b00bd176, type: 2}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4000014093139808, guid: 15a07a9f91fe94d4199492828ba4d7f1, type: 2}
+    - target: {fileID: 4000013010803516, guid: b1592c665590348679c04d90b00bd176, type: 2}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4000014093139808, guid: 15a07a9f91fe94d4199492828ba4d7f1, type: 2}
+    - target: {fileID: 4000013010803516, guid: b1592c665590348679c04d90b00bd176, type: 2}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4000014093139808, guid: 15a07a9f91fe94d4199492828ba4d7f1, type: 2}
+    - target: {fileID: 4000013010803516, guid: b1592c665590348679c04d90b00bd176, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4000014093139808, guid: 15a07a9f91fe94d4199492828ba4d7f1, type: 2}
+    - target: {fileID: 4000013010803516, guid: b1592c665590348679c04d90b00bd176, type: 2}
       propertyPath: m_RootOrder
       value: 9
       objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
+    - target: {fileID: 33000013576020808, guid: b1592c665590348679c04d90b00bd176,
+        type: 2}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 1587129324}
+    - target: {fileID: 64000013217831716, guid: b1592c665590348679c04d90b00bd176,
+        type: 2}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 1587129324}
+    - target: {fileID: 114000013038720810, guid: b1592c665590348679c04d90b00bd176,
         type: 2}
       propertyPath: m_CachedInstanceID
-      value: -202586
-      objectReference: {fileID: 0}
-    - target: {fileID: 64000014194583792, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 1587129324}
-    - target: {fileID: 33000012721839030, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 1587129324}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_NodeTypes.Array.data[0]
-      value: BehaviourMachine.OnEnable
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_NodeTypes.Array.data[1]
-      value: BehaviourMachine.Update
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_NodeTypes.Array.data[2]
-      value: BehaviourMachine.OnTriggerEnter
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_NodeTypes.Array.data[3]
-      value: BehaviourMachine.SendEventToOther
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_NodeTypeHash.Array.data[0]
-      value: 277016457
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_NodeTypeHash.Array.data[1]
-      value: 277016457
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_NodeTypeHash.Array.data[2]
-      value: 989087826
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_NodeTypeHash.Array.data[3]
-      value: -87878424
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_NodeFieldStartIndex.Array.data[0]
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_NodeFieldStartIndex.Array.data[1]
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_NodeFieldStartIndex.Array.data[2]
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_NodeFieldStartIndex.Array.data[3]
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_NodeFieldStartIndex.Array.data[4]
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_BranchIndex.Array.data[0]
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_BranchIndex.Array.data[1]
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_BranchIndex.Array.data[2]
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_BranchIndex.Array.data[3]
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_IntValue.Array.data[0]
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_IntValue.Array.data[1]
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_IntValue.Array.data[2]
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_IntValue.Array.data[3]
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_IntValue.Array.data[4]
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_IntValue.Array.data[5]
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_IntValue.Array.data[6]
-      value: 1997472979
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_IntValue.Array.data[7]
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_StringValue.Array.data[0]
-      value: OnEnable
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_StringValue.Array.data[1]
-      value: Update
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_StringValue.Array.data[2]
-      value: OnTriggerEnter
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_StringValue.Array.data[3]
-      value: SendEventToOther
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_StringValue.Array.data[4]
-      value: BehaviourMachine.ConcreteStringVar
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldIndex.Array.data[0]
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldIndex.Array.data[1]
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldIndex.Array.data[2]
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldIndex.Array.data[3]
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldIndex.Array.data[4]
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldIndex.Array.data[5]
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldIndex.Array.data[6]
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldIndex.Array.data[7]
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldIndex.Array.data[8]
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldIndex.Array.data[9]
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldIndex.Array.data[10]
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldIndex.Array.data[11]
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldIndex.Array.data[12]
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldType.Array.data[0]
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldType.Array.data[1]
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldType.Array.data[2]
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldType.Array.data[3]
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldType.Array.data[4]
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldType.Array.data[5]
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldType.Array.data[6]
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldType.Array.data[7]
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldType.Array.data[8]
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldType.Array.data[9]
-      value: 26
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldType.Array.data[10]
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldType.Array.data[11]
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldType.Array.data[12]
-      value: 26
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldPath.Array.data[0]
-      value: instanceID
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldPath.Array.data[1]
-      value: name
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldPath.Array.data[2]
-      value: enabled
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldPath.Array.data[3]
-      value: instanceID
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldPath.Array.data[4]
-      value: name
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldPath.Array.data[5]
-      value: enabled
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldPath.Array.data[6]
-      value: instanceID
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldPath.Array.data[7]
-      value: name
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldPath.Array.data[8]
-      value: enabled
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldPath.Array.data[9]
-      value: other
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldPath.Array.data[10]
-      value: instanceID
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldPath.Array.data[11]
-      value: name
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldPath.Array.data[12]
-      value: other
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011308163444, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_GameObjectVars.Array.data[0].m_ID
-      value: 1997472979
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011308163444, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_GameObjectVars.Array.data[0].m_Name
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011308163444, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_GameObjectVars.Array.data[0].m_Blackboard
-      value: 
-      objectReference: {fileID: 436716424}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_NodeTypes.Array.data[4]
-      value: BehaviourMachine.TickFunction
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_NodeTypeHash.Array.data[4]
-      value: -1135996992
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_NodeFieldStartIndex.Array.data[5]
-      value: 19
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_BranchIndex.Array.data[4]
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_IntValue.Array.data[8]
-      value: 1997472979
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_StringValue.Array.data[5]
-      value: BehaviourMachine.ConcreteBoolVar
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_StringValue.Array.data[6]
-      value: BehaviourMachine.ConcreteBoolVar
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_StringValue.Array.data[7]
-      value: BehaviourMachine.ConcreteBoolVar
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_GenericFieldType.Array.data[0]
-      value: BehaviourMachine.ConcreteStringVar
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_GenericFieldType.Array.data[1]
-      value: BehaviourMachine.ConcreteStringVar
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_GenericFieldHash.Array.data[0]
-      value: 48687485
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_GenericFieldHash.Array.data[1]
-      value: 48687485
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_GenericFieldSize.Array.data[0]
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_GenericFieldSize.Array.data[1]
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldIndex.Array.data[13]
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldIndex.Array.data[14]
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldIndex.Array.data[16]
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldIndex.Array.data[17]
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldIndex.Array.data[18]
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldType.Array.data[13]
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldType.Array.data[14]
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldType.Array.data[15]
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldType.Array.data[16]
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldType.Array.data[17]
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldType.Array.data[18]
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldPath.Array.data[13]
-      value: eventToSend
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldPath.Array.data[14]
-      value: stateName
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldPath.Array.data[15]
-      value: storeEventUsed
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldPath.Array.data[16]
-      value: treeName.value
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldPath.Array.data[17]
-      value: functionName
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldPath.Array.data[18]
-      value: functionName.value
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_FieldIndex.Array.data[15]
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012800358580, guid: 15a07a9f91fe94d4199492828ba4d7f1,
-        type: 2}
-      propertyPath: m_NodeSerialization.m_IntValue.Array.data[9]
-      value: -186807155
+      value: -453758
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 15a07a9f91fe94d4199492828ba4d7f1, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: b1592c665590348679c04d90b00bd176, type: 2}
   m_IsPrefabParent: 0
 --- !u!43 &881753729
 Mesh:
@@ -17776,7 +17160,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-202580
+  m_Name: pb_Mesh-453754
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -21306,7 +20690,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh23858
+  m_Name: pb_Mesh21104
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2

@@ -219,7 +219,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 320, y: 50}
   m_Transitions: []
-  m_CachedInstanceID: -193322
+  m_CachedInstanceID: 15162
 --- !u!114 &114000010508418084
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -254,7 +254,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: -193328
+  m_CachedInstanceID: 15168
   m_Description: 
   m_EnabledState: {fileID: 0}
   m_LastEnabledState: {fileID: 0}
@@ -314,7 +314,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 114000010351917530}
     m_EventID: 1952694497
-  m_CachedInstanceID: -193324
+  m_CachedInstanceID: 15164
   m_Description: 
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -518,7 +518,7 @@ MonoBehaviour:
   m_Script: {fileID: -900027084, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.022599488, g: 0.2794118, b: 0.12001106, a: 0.287}
+  m_EffectColor: {r: 0.038362056, g: 0.03125, b: 0.125, a: 0.287}
   m_EffectDistance: {x: 2, y: -2}
   m_UseGraphicAlpha: 1
 --- !u!114 &114000012508798936
@@ -587,7 +587,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9191176, g: 0.30411983, b: 0.74946296, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -628,7 +628,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 5eed7c504e1cc49a6a79ab012e7bb536, type: 3}
+    m_Font: {fileID: 12800000, guid: 7bdc8cb3e4c4c43b2b0790818a1299a1, type: 3}
     m_FontSize: 42
     m_FontStyle: 0
     m_BestFit: 0
@@ -661,7 +661,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 114000011028243990}
     m_EventID: 1952694497
-  m_CachedInstanceID: -193326
+  m_CachedInstanceID: 15166
   m_NodeSerialization:
     m_NodeTypes:
     - BehaviourMachine.EveryFrame
